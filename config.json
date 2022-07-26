@@ -1,0 +1,20 @@
+{
+	"url": "https://foo.bar/api",
+	"method": "post",
+	"headers": {
+		"Content-Type": "application/json"
+	},
+  "params": {
+    "pageNo": 1,
+    "pageSize": 10
+  },
+  "data": {
+    "name": "Jim Green",
+    "city": "New York"
+  },
+	"timeout": 10,
+	"encoding": "utf8",
+	"pretty": true,
+	"log": "./foo.txt",
+	"output": "./bar.json"
+}
